@@ -1,0 +1,375 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Resume</title>
+        <link rel="icon" type="image/x-icon" href="{% static 'cv/assets/img/favicon.ico' %}" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'cv/css/styles.css' %}" rel="stylesheet" />
+    </head>
+
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Kadir Berat YILDIRIM</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'cv/assets/img/profile.jpg' %}" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Kadir Berat
+                        <span class="text-primary">YILDIRIM</span>
+                    </h1>
+                    <div class="lead mb-5">
+                         Istanbul / Turkey  ·  +90 539 268 3861  · 
+                        <a href="mailto:kadirberatyildirim@gmail.com">kadirberatyildirim@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">Senior year physics engineering student at ITU. Enthusiastic about positive sciences and aim to merge academical physics knowledge with technical skills I have gained. Methodical and self-motivated worker seeking for development through experience.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://linkedin.com/in/kadir-berat-yildirim"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/kadirberatyildirim"><i class="fab fa-github"></i></a>
+                        <a href="{% static 'cv/media/resume.pdf' %}" download> Download PDF </a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Data Scientist</h3>
+                            <div class="subheading mb-3">TurkNet Iletişim Hizmetleri A.Ş.</div>
+                            <ul>
+                                <li>Deployment of mlflow environment</li>
+                                <li>Visualization of data using MSSQL and Tableau</li>
+                                <li>Sentiment analysis with Naive Bayes and LSTM algorithms</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 2021 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Data Scientist Long-Term Intern</h3>
+                            <div class="subheading mb-3">TurkNet Iletişim Hizmetleri A.Ş.</div>
+                            <ul>
+                                <li>Ahtapot Project-Path and mean time predictions for resolving customer tickets</li>
+                                <li>Customer clustering and Churn predictions using DNS/Netflow data</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">December 2020 - June 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Academical Internship</h3>
+                            <div class="subheading mb-3">Faculty of Science & Letter, Istanbul Technical University</div>
+                            <p>Studies on Quantum Computing with Prof. Altan Çakır</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2020 - October 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Cloud & AI Summer Internship</h3>
+                            <div class="subheading mb-3">International Business Machines Corporation (IBM)</div>
+                            <ul>
+                                <li>Studied on a model for Turkish Natural Language Processing problem</li>
+                                <li>Data Science Foundations learning path</li>
+                                <li>Deep Learning learning path</li>
+                                <li>Internship Project: Position predictions on projectile motion using IBM's Watson Studio</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2020 - August 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Data Analyst</h3>
+                            <div class="subheading mb-3">Actuarial and Statistical Department - NN Hayat ve Emeklilik A.Ş.</div>
+                            <ul>
+                                <li>Validating Customer Contracts on Customer relationship management (CRM) System, Agito and Oracle</li>
+                                <li>Automating Daily Tasks such as PDF to Excel Conversion</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">October 2015 - March 2017</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Piano Teacher</h3>
+                            <div class="subheading mb-3">Private Piano Lessons</div>
+                            <ul>
+                                <li>Certificate Exam Preparations (LCM & Royal Academy)</li>
+                                <li>Teaching Musical Theory</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2013 - Present</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Istanbul Technical University</h3>
+                            <div class="subheading mb-3">Faculty of Science & Letter</div>
+                            <div>Physics Engineering Department</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2015 - May 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">FMV Ayazağa Işık Lisesi</h3>
+                            <div class="subheading mb-3">High School Education</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2010 - 2015</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Mimar Sinan Fine Arts University State Conservatory</h3>
+                            <div class="subheading mb-3">Piano-Harp-Guitar Program, Music Department</div>
+                            <div>Piano Division</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2010 - 2015</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Graduation Project - Quantum Deep learning for Particle Physics Applications</h3>
+                            <div class="subheading mb-3">Faculty of Science & Letter, Istanbul Technical University</div>
+                            <ul>
+                                <li>CERN data is explored deeply</li>
+                                <li>Quantum LSTM and Quantum DNN algorithms developed to learn and predict particle physics classification problems</li>
+                                <li>Comparison between Quantum and Conventional deep learning algorithms</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">February 2021 - June 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">'NETIR' Object Based Heating Infrared Ovens</h3>
+                            <div class="subheading mb-3">Faculty of Science & Letter, Istanbul Technical University</div>
+                            <ul>
+                                <li>Design and Development of the Infrared Oven</li>
+                                <li>Second Prize in Tübitak 2242 Research Projects Competition</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2017 - May 2019</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">'YuBİTA' Recognition of Permanent Facial Wounds</h3>
+                            <div class="subheading mb-3">Faculty of Science & Letter, Istanbul Technical University</div>
+                            <ul>
+                                <li>Joint Project between Faculty of Science & Letter, Istanbul Technical University and Institute of Forensic Sciences, Istanbul University</li>
+                                <li>Developing GUI Plugin for ImageJ using Java, for Purpose of 2D Analysis</li>
+                                <li>Automatic Report Creation using Python Library ReportLab</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">November 2018 - March 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Hand-Written Cross-Lines Detection</h3>
+                            <div class="subheading mb-3">Faculty of Science & Letter, Istanbul Technical University</div>
+                            <ul>
+                                <li>GUI Creation using Python's PyQt5 Library for 3D Rendering, Data Management and Visualization</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">February 2020 - September 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Inhaler Cabinet</h3>
+                            <div class="subheading mb-3">Faculty of Science & Letter, Istanbul Technical University</div>
+                            <ul>
+                                <li>Joint Project between Faculty of Science & Letter, Istanbul Technical University and School of Medicine, Bezmialem Foundation University</li>
+                                <li>Electronic Control of Arduinos using Raspbian on Raspberry Pi 3 Model B</li>
+                                <li>GUI using Python's PyQt5 Library for User Input and Data Visualization</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2019 - July 2020</span></div>
+                    </div>
+                    <!-- Self-Motivated Projects-->
+                    <h2 class="mb-5">Self-Motivated Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Home Server / NAS</h3>
+                            <ul>
+                                <li>Server runs on Ubuntu Server OS</li>
+                                <li>Job scheduling using crontab</li>
+                                <li>Various python scripts running for assisting daily tasks </li>
+                                <li>Online portfolio using Django as a backend library</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">“FormulaZ” App Development</h3>
+                            <ul>
+                                <li>Content creation for physics and mathematics subjects</li>
+                                <li>Created and released an app on Apple Store and Play Store with 2 other friends, 
+                                    which included lectures and formulas on positive sciences, intended for university 
+                                    exam preparation</li>
+                                <li>Android Studio</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Gravity Simulation</h3>
+                            <ul>
+                                <li>Python with pygame and PyQt5 libraries</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Ideal Gas Simulation</h3>
+                            <ul>
+                                <li>Python with matplotlib and dearpygui libraries</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Prey/Predator Simulation</h3>
+                            <ul>
+                                <li>Python with pygame and plotly libraries</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Cat/Dog Classifier CNN Model</h3>
+                            <ul>
+                                <li>Python using keras library</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Small Games</h3>
+                            <ul>
+                                <li>Unity and C# using Visual Studio Code</li>
+                                <li>Python with Pygame</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Main Programming and Query Languages</h3>
+                            <ul class="fa-ul mb-0">
+                                <li>Python</li><li>R</li><li>Latex</li><li>Julia</li><li>SQL</li><li>Lilypond</li>
+                            </ul>
+                        </div>
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Other Development Languages</h3>
+                            <ul class="fa-ul mb-0">
+                                <li>MATLAB</li><li>SageMath</li><li>C#</li><li>C++</li><li>Fortran</li><li>Java</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Development Tools – IDE</h3>
+                            <ul class="fa-ul mb-0">
+                                <li>Visual Studio</li><li>JupyterLab</li><li>Spyder</li><li>RStudio</li><li>Overleaf</li><li>Frescobaldi</li>
+                            </ul>
+                        </div>
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Development Libraries</h3>
+                            <ul class="fa-ul mb-0">
+                                <li>numpy</li><li>pandas</li><li>matplotlib</li><li>seaborn</li><li>plotly</li><li>pyqt5/pyside2</li>
+                                <li>keras</li><li>tensorflow</li><li>scikit-learn</li><li>django</li><li>mlflow</li>
+                            </ul>
+                        </div>
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Others</h3>
+                            <ul class="fa-ul mb-0">
+                                <li>Microsoft Office</li><li>LibreOffice</li><li>Linux</li><li>Raspberry Pi</li><li>SolidWorks</li><li>Tableau</li>
+                                <li>PyCharm</li><li>VS Code</li><li>Github</li><li>AWT</li><li>Tableau</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Personal Skills</h3>
+                            <ul class="fa-ul mb-0">
+                                <li>Piano</li><li>Wing Tsun</li><li>Tennis</li><li>Academical Reading/Writing</li><li>Public Speaking</li>
+                            </ul>
+                        </div>
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Languages</h3>
+                            <ul class="fa-ul mb-0">
+                                <li>Turkish (Native)</li><li>English (C1)</li><li>German (A2)</li><li>Russian (A1)</li><li>Spanish (A1)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>In my free time, I love working on different aspects of programming. I have created small games, bought and setup a home server and have also been writing scientific simulations. I enjoy a new challenge and often find myself learning new skills.</p>
+                    <p>Apart from being a programmer, I enjoy playing piano. I also enjoy teaching it and have worked with a lot of people (mostly children), teaching and preparing them to certificate exams such as LCM. I have also given many piano concerts (especially 
+                        in high school) which gave me some control over stress when I am in front of a public audience.</p>
+                    <p>I also train at Wing Tsun (a martial art) for 3 years now and enjoy spending time playing tennis.</p>
+                    <p>Some activities from my past:</p>
+                    <ul>
+                        <li>Voluntary Piano Workshops for 4 Years at ITU Western Music Club</li>
+                        <li>'Melody of Mathematics' Project Explaining the Relationship Between Physical and Mathematical Concepts of Music. Presented to Darüşşafaka Students at TIM Show Center</li>
+                        <li>Piano Performances at FMV Işık High School, Mimar Sinan Conservatory and ITU</li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{% static 'cv/js/scripts.js' %}"></script>
+    </body>
+</html>
